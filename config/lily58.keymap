@@ -26,6 +26,48 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        home_j: home_j {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOME_J";
+            #binding-cells = <0>;
+            bindings = <&home_row_mod RIGHT_CONTROL J>, <&kp J>;
+        };
+
+        home_f: home_f {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOME_F";
+            #binding-cells = <0>;
+            bindings = <&home_row_mod LEFT_CONTROL F>, <&kp F>;
+        };
+
+        home_a: home_a {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOME_A";
+            #binding-cells = <0>;
+            bindings = <&home_row_mod LEFT_GUI A>, <&kp A>;
+        };
+
+        home_semicolon: home_semicolon {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOME_SEMICOLON";
+            #binding-cells = <0>;
+            bindings = <&home_row_mod RIGHT_GUI SEMICOLON>, <&kp SEMICOLON>;
+        };
+
+        home_s: home_s {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOME_S";
+            #binding-cells = <0>;
+            bindings = <&home_row_mod LEFT_ALT S>, <&kp S>;
+        };
+
+        home_l: home_l {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOME_L";
+            #binding-cells = <0>;
+            bindings = <&home_row_mod RIGHT_ALT L>, <&kp L>;
+        };
     };
 
     keymap {
