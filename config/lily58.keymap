@@ -20,7 +20,7 @@
         home_row_mod: home_row_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_ROW_MOD";
-            bindings = <&kp>, <&kp>;
+            bindings = <&kp>, <&key_repeat>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
