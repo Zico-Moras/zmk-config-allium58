@@ -20,12 +20,13 @@
         home_row_mod: home_row_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_ROW_MOD";
-            bindings = <&kp>, <&key_repeat>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <100>;
+            quick-tap-ms = <100>;
         };
 
         home_j: home_j {
