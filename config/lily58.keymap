@@ -33,7 +33,7 @@
             #binding-cells = <0>;
             bindings = <&home_row_mod RIGHT_CONTROL J>, <&kp J>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <130>;
         };
 
         home_f: home_f {
@@ -42,7 +42,7 @@
             #binding-cells = <0>;
             bindings = <&home_row_mod LEFT_CONTROL F>, <&kp F>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <130>;
         };
 
         home_a: home_a {
@@ -51,7 +51,7 @@
             #binding-cells = <0>;
             bindings = <&home_row_mod LEFT_GUI A>, <&kp A>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <130>;
         };
 
         home_semicolon: home_semicolon {
@@ -60,7 +60,7 @@
             #binding-cells = <0>;
             bindings = <&home_row_mod RIGHT_GUI SEMICOLON>, <&kp SEMICOLON>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <130>;
         };
 
         home_s: home_s {
@@ -69,7 +69,7 @@
             #binding-cells = <0>;
             bindings = <&home_row_mod LEFT_ALT S>, <&kp S>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <130>;
         };
 
         home_l: home_l {
@@ -78,16 +78,7 @@
             #binding-cells = <0>;
             bindings = <&home_row_mod RIGHT_ALT L>, <&kp L>;
 
-            tapping-term-ms = <150>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&home_row_mod RIGHT_ALT L>, <&kp L>;
-
-            tapping-term-ms = <150>;
+            tapping-term-ms = <130>;
         };
     };
 
