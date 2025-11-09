@@ -98,10 +98,10 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp CAPSLOCK  &kp N1                    &kp N2                    &kp N3  &kp N4                        &kp N5                                &kp N6           &kp N7                         &kp N8  &kp N9                     &kp N0                     &kp BACKSPACE
-&kp TAB       &kp B                     &kp L                     &kp D   &kp W                         &kp V                                 &kp J            &kp Y                          &kp O   &kp U                      &trans                     &trans
-&kp ESCAPE    &home_row_mod LEFT_GUI N  &home_row_mod LEFT_ALT R  &kp T   &home_row_mod LEFT_CONTROL S  &kp G                                 &kp P            &home_row_mod RIGHT_CONTROL H  &kp A   &home_row_mod RIGHT_ALT E  &home_row_mod RIGHT_GUI I  &trans
-&trans        &kp X                     &kp Q                     &kp M   &kp C                         &kp Z           &trans       &trans   &kp K            &kp F                          &trans  &trans                     &trans                     &trans
+&kp CAPSLOCK  &kp N1                    &kp N2                    &kp N3  &kp N4                        &kp N5                                &kp N6           &kp N7                         &kp N8            &kp N9                     &kp N0                     &kp BACKSPACE
+&kp TAB       &kp B                     &kp L                     &kp D   &kp W                         &kp V                                 &kp J            &kp Y                          &kp O             &kp U                      &kp COMMA                  &trans
+&kp ESCAPE    &home_row_mod LEFT_GUI N  &home_row_mod LEFT_ALT R  &kp T   &home_row_mod LEFT_CONTROL S  &kp G                                 &kp P            &home_row_mod RIGHT_CONTROL H  &kp A             &home_row_mod RIGHT_ALT E  &home_row_mod RIGHT_GUI I  &trans
+&trans        &kp X                     &kp Q                     &kp M   &kp C                         &kp Z           &trans       &trans   &kp K            &kp F                          &kp SINGLE_QUOTE  &kp SEMICOLON              &kp PERIOD                 &trans
                                                                   &trans  &mo 1                         &kp LEFT_SHIFT  &kp SPACE    &kp RET  &kp RIGHT_SHIFT  &mo 2                          &trans
             >;
         };
@@ -118,8 +118,8 @@
 
             bindings = <
 &trans  &trans           &trans         &trans            &trans             &trans                           &trans       &trans                &trans                 &trans         &trans             &kp DELETE
-&trans  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &trans             &trans
-&trans  &kp EXCLAMATION  &kp ASTERISK   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp AMPERSAND                    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp DOUBLE_QUOTES  &trans
+&trans  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &kp EQUAL          &kp BACKSLASH
+&trans  &kp EXCLAMATION  &kp ASTERISK   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp AMPERSAND                    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SLASH
 &trans  &kp TILDE        &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &trans    &trans  &kp AT_SIGN  &kp COLON             &kp COMMA              &kp PERIOD     &kp SINGLE_QUOTE   &trans
                                         &trans            &trans             &trans         &trans    &trans  &trans       &trans                &trans
             >;
