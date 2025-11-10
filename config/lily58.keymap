@@ -162,11 +162,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans   &trans   &trans  &trans  &trans                    &trans  &trans    &trans         &trans     &trans     &kp DELETE
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7    &kp F8         &kp F8     &kp F9     &kp F10
-&trans  &kp F11  &kp F12  &trans  &trans  &trans                    &trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &trans
-&trans  &trans   &trans   &trans  &trans  &trans  &trans    &trans  &trans  &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &trans
-                          &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                    &trans  &trans    &trans         &trans     &trans     &kp DELETE
+&kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T                     &kp F6  &kp F7    &kp F8         &kp F8     &kp F9     &kp F10
+&kp CAPSLOCK  &kp A         &kp S         &kp D         &kp F         &kp G                     &trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &trans
+&kp LCTRL     &kp Z         &kp X         &kp C         &kp V         &kp B   &trans    &trans  &trans  &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &trans
+                                          &trans        &trans        &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
 
