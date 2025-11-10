@@ -87,7 +87,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "GAME";
             #binding-cells = <0>;
-            bindings = <&none>, <&tog 4>;
+            bindings = <&none>, <&tog 3>;
         };
     };
 
