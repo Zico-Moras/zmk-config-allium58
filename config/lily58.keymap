@@ -82,6 +82,13 @@
 
             tapping-term-ms = <130>;
         };
+
+        game: game {
+            compatible = "zmk,behavior-tap-dance";
+            label = "GAME";
+            #binding-cells = <0>;
+            bindings = <&none>, <&tog 4>;
+        };
     };
 
     keymap {
@@ -117,7 +124,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans           &trans         &trans            &trans     &trans                           &trans       &trans                &trans                 &trans      &trans             &kp DELETE
+&trans  &trans           &trans         &trans            &trans     &trans                           &trans       &trans                &trans                 &trans      &trans             &kp BACKSPACE
 &trans  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &kp BACKSLASH      &trans
 &trans  &kp EXCLAMATION  &kp ASTERISK   &kp TILDE         &kp PLUS   &kp AMPERSAND                    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER   &kp DOUBLE_QUOTES  &trans
 &trans  &trans           &trans         &trans            &trans     &kp PERCENT    &trans    &trans  &kp AT_SIGN  &kp COLON             &kp QUESTION           &trans      &trans             &trans
