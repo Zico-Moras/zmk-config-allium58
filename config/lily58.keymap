@@ -108,7 +108,7 @@
 &kp CAPSLOCK  &kp N1                    &kp N2                    &kp N3  &kp N4                        &kp N5                                &kp N6           &kp N7                         &kp N8            &kp N9                     &kp N0                     &kp BACKSPACE
 &kp TAB       &kp B                     &kp L                     &kp D   &kp W                         &kp V                                 &kp J            &kp Y                          &kp O             &kp U                      &kp COMMA                  &kp EQUAL
 &kp ESCAPE    &home_row_mod LEFT_GUI N  &home_row_mod LEFT_ALT R  &kp T   &home_row_mod LEFT_CONTROL S  &kp G                                 &kp P            &home_row_mod RIGHT_CONTROL H  &kp A             &home_row_mod RIGHT_ALT E  &home_row_mod RIGHT_GUI I  &kp SLASH
-&trans        &kp X                     &kp Q                     &kp M   &kp C                         &kp Z           &trans       &trans   &kp K            &kp F                          &kp SINGLE_QUOTE  &kp SEMICOLON              &kp PERIOD                 &trans
+&trans        &kp X                     &kp Q                     &kp M   &kp C                         &kp Z           &game        &trans   &kp K            &kp F                          &kp SINGLE_QUOTE  &kp SEMICOLON              &kp PERIOD                 &trans
                                                                   &trans  &mo 1                         &kp LEFT_SHIFT  &kp SPACE    &kp RET  &kp RIGHT_SHIFT  &mo 2                          &trans
             >;
         };
