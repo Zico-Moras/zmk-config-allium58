@@ -99,8 +99,8 @@
 
             bindings = <
 &kp CAPSLOCK  &kp N1                    &kp N2                    &kp N3  &kp N4                        &kp N5                                &kp N6           &kp N7                         &kp N8            &kp N9                     &kp N0                     &kp BACKSPACE
-&kp TAB       &kp B                     &kp L                     &kp D   &kp W                         &kp V                                 &kp J            &kp Y                          &kp O             &kp U                      &kp COMMA                  &trans
-&kp ESCAPE    &home_row_mod LEFT_GUI N  &home_row_mod LEFT_ALT R  &kp T   &home_row_mod LEFT_CONTROL S  &kp G                                 &kp P            &home_row_mod RIGHT_CONTROL H  &kp A             &home_row_mod RIGHT_ALT E  &home_row_mod RIGHT_GUI I  &trans
+&kp TAB       &kp B                     &kp L                     &kp D   &kp W                         &kp V                                 &kp J            &kp Y                          &kp O             &kp U                      &kp COMMA                  &kp EQUAL
+&kp ESCAPE    &home_row_mod LEFT_GUI N  &home_row_mod LEFT_ALT R  &kp T   &home_row_mod LEFT_CONTROL S  &kp G                                 &kp P            &home_row_mod RIGHT_CONTROL H  &kp A             &home_row_mod RIGHT_ALT E  &home_row_mod RIGHT_GUI I  &kp SLASH
 &trans        &kp X                     &kp Q                     &kp M   &kp C                         &kp Z           &trans       &trans   &kp K            &kp F                          &kp SINGLE_QUOTE  &kp SEMICOLON              &kp PERIOD                 &trans
                                                                   &trans  &mo 1                         &kp LEFT_SHIFT  &kp SPACE    &kp RET  &kp RIGHT_SHIFT  &mo 2                          &trans
             >;
@@ -117,11 +117,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans           &trans         &trans            &trans             &trans                           &trans       &trans                &trans                 &trans      &trans             &kp DELETE
-&trans  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &kp EQUAL          &kp BACKSLASH
-&trans  &kp EXCLAMATION  &kp ASTERISK   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp AMPERSAND                    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER   &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE        &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &trans    &trans  &kp AT_SIGN  &kp COLON             &kp QUESTION           &kp SLASH   &trans             &trans
-                                        &trans            &trans             &trans         &trans    &trans  &trans       &trans                &trans
+&trans  &trans           &trans         &trans            &trans     &trans                           &trans       &trans                &trans                 &trans      &trans             &kp DELETE
+&trans  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &kp BACKSLASH      &trans
+&trans  &kp EXCLAMATION  &kp ASTERISK   &kp TILDE         &kp PLUS   &kp AMPERSAND                    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER   &kp DOUBLE_QUOTES  &trans
+&trans  &trans           &trans         &trans            &trans     &kp PERCENT    &trans    &trans  &kp AT_SIGN  &kp COLON             &kp QUESTION           &trans      &trans             &trans
+                                        &trans            &trans     &trans         &trans    &trans  &trans       &trans                &trans
             >;
         };
 
@@ -136,11 +136,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans                    &trans          &trans          &trans        &trans           &trans   &studio_unlock
-&trans      &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                    &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &trans
-&trans      &kp F11       &kp F12       &trans        &trans        &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans      &trans        &trans        &trans        &trans        &trans  &trans    &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans   &trans
-                                        &trans        &trans        &trans  &trans    &trans  &trans          &trans          &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &trans                    &trans          &trans          &trans        &trans           &trans   &kp DELETE
+&trans      &kp F1        &kp F2        &kp F3          &kp F4        &kp F5                    &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &trans
+&trans      &kp F11       &kp F12       &trans          &trans        &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&trans      &trans        &trans        &trans          &trans        &trans  &trans    &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans   &trans
+                                        &studio_unlock  &trans        &trans  &trans    &trans  &trans          &trans          &trans
             >;
         };
 
